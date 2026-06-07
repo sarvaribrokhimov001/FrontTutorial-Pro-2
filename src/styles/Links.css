@@ -1,0 +1,42 @@
+.All__links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1000px;
+    height: auto;
+    margin: 50px auto;
+}
+
+.Links__link {
+    color: black;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.Links__link:hover {
+    color: green !important;
+}
+
+@media (max-width: 500px) {
+  .Links__title {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .All__links {
+    padding: 10px;
+  }
+
+  .All__links ul {
+    width: 100%;
+  }
+
+  .All__links li {
+    width: 100%;
+  }
+
+  .Links__link {
+    font-size: 14px;
+    word-break: break-word;
+  }
+}

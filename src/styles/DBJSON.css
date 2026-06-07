@@ -1,0 +1,55 @@
+.DBJSON__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.DBJSON__card {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.DBJSON__name {
+  color: #61dafb;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.DBJSON__codeBox {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.DBJSON__code {
+  background: #111;
+  color: #00ff88;
+  padding: 15px;
+  border-radius: 10px;
+  overflow-x: auto;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.DBJSON__copyBtn {
+  border: none;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #61dafb;
+  color: #000;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.DBJSON__copyBtn:hover {
+  background: #21a1f1;
+}
+
+.DBJSON__title {
+  text-align: center;
+  margin-top: 20px;
+}

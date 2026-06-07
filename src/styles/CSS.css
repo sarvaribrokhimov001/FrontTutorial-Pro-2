@@ -1,0 +1,35 @@
+.CSS__properties {
+    width: 1100px;
+}
+
+@media (max-width: 500px) {
+  .CSS__title {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .CSS__input {
+    width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .CSS__properties {
+    width: 100%;
+    padding: 10px 8px;
+    overflow-x: hidden;
+  }
+
+  .property {
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.7;
+    padding: 12px;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    border-radius: 10px;
+    margin-bottom: 12px;
+  }
+}
