@@ -14,6 +14,7 @@ import Footer from "./components/Footer";
 import NPM from "./pages/NPM";
 import Git from "./pages/Git";
 import DBJSON from "./pages/DBJSON";
+import API from "./pages/API";
 
 const PrivateRoute = ({ isLogged, children }) => {
   if (!isLogged) {
@@ -155,6 +156,7 @@ const App = () => {
       <Route path="/npm" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <NPM darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
       <Route path="/git" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <Git darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
       <Route path="/dbjson" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <DBJSON darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
+      <Route path="/api" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <API darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
       <Route path="*" element={<h1 className="error"> Page is not found </h1>} />
     </Routes>
   );

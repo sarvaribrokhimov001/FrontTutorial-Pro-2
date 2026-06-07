@@ -14,6 +14,7 @@ const Navbar = () => {
         <li> <Link className="navbar__link" to="/npm"> NPM </Link> </li>
         <li> <Link className="navbar__link" to="/git"> Git </Link> </li>
         <li> <Link className="navbar__link" to="/dbjson"> dbJSON </Link> </li>
+        <li> <Link className="navbar__link" to="/api"> API </Link> </li>
       </ul>
     </div>
   );
