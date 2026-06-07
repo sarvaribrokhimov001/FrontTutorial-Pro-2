@@ -70,6 +70,10 @@ const Home = ({ darkMode, setDarkMode }) => {
                 {checkMatch("DBJSON") && (
                   <li> <Link className='home__section__link' to="/dbjson"> dbJSON </Link> </li>
                 )}
+
+                {checkMatch("API") && (
+                  <li> <Link className='home__section__link' to="/api"> API </Link> </li>
+                )}
               </div>
             </div>
           )}
