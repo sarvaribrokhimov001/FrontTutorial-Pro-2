@@ -12,6 +12,7 @@ import { comments } from "../data/comments";
 import { todos } from "../data/todos";
 import { quotes } from "../data/quotes";
 import { recipes } from "../data/recipes";
+import { categories } from "../data/categories";
 
 const DBJSON = ({ darkMode, setDarkMode }) => {
   const [search, setSearch] = useState("");
@@ -49,6 +50,10 @@ const DBJSON = ({ darkMode, setDarkMode }) => {
       category: "Recipes",
       json: JSON.stringify(recipes, null, 2),
     },
+    {
+      category: "Categories",
+      json: JSON.stringify(categories, null, 2),
+    }
   ];
 
   const filteredData = dbData.filter((item) =>
