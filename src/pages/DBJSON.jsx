@@ -94,11 +94,7 @@ const DBJSON = ({ darkMode, setDarkMode }) => {
 
               <div className="DBJSON__codeBox">
                 <pre className="DBJSON__code"> {item.json} </pre>
-                <button className="DBJSON__copyBtn" onClick={() =>
-                    copyToClipboard(item.json)
-                  }>
-                  Copy
-                </button>
+                <button className="DBJSON__copyBtn" onClick={() => copyToClipboard(item.json)}> Copy </button>
               </div>
             </div>
           ))
