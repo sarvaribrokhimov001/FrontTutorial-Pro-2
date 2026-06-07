@@ -142,7 +142,7 @@ const CSS = ({ darkMode, setDarkMode }) => {
       <h1 className='CSS__title HTML__title'> CSS Properties </h1>
       <div className="search__wrapper">
         <input 
-         className='CSS__input HTML__input' 
+         className='search__input CSS__input HTML__input' 
          type="search" 
          placeholder='Write the CSS Property' 
          value={search} 

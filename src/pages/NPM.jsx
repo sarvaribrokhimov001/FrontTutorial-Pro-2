@@ -329,7 +329,7 @@ const NPM = ({ darkMode, setDarkMode }) => {
       <h1 className="NPM__title HTML__title"> Useful NPM Packages </h1>
       <div className="search__wrapper">
         <input
-         className="NPM__input HTML__input"
+         className="search__input NPM__input HTML__input"
          type="search"
          placeholder="Search npm package"
          value={search}

@@ -118,5 +118,5 @@ export const todos = [
       "todo": "Bake a pie with some friends",
       "completed": false,
       "userId": 162
-    }
-]
+    },
+];

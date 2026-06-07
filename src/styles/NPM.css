@@ -1,57 +1,57 @@
 .NPM__container {
-    width: 1100px;
-    margin: 50px auto;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .NPM__card {
-    background-color: black;
-    padding: 25px;
-    border-radius: 20px;
-    border: 2px solid #222;
+  background-color: black;
+  padding: 25px;
+  border-radius: 20px;
+  border: 2px solid #222;
 }
 
 .NPM__name {
-    color: red;
-    margin-bottom: 15px;
-    font-size: 30px;
+  color: red;
+  margin-bottom: 15px;
+  font-size: 30px;
 }
 
 .NPM__description {
-    color: white;
-    font-size: 22px;
-    margin-bottom: 20px;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
 }
 
 .NPM__commandBox {
-    background: #111;
-    border-radius: 12px;
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background: #111;
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .NPM__command {
-    color: lime;
-    font-size: 20px;
+  color: lime;
+  font-size: 20px;
 }
 
 .NPM__copyBtn {
-    padding: 10px 18px;
-    border: none;
-    border-radius: 10px;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    transition: 0.5s;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  transition: 0.5s;
 }
 
 .NPM__copyBtn:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 @media (max-width: 500px) {

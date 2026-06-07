@@ -850,4 +850,4 @@ export const recipes = [
         "Dinner"
       ]
     },
-]
+];

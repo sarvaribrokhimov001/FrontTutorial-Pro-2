@@ -1,5 +1,5 @@
 export const products = [
-      {
+    {
       "name": "Apple MacBook Pro 14\"",
       "price": "199",
       "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400&q=80",

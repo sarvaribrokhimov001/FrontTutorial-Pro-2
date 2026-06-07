@@ -17,7 +17,7 @@ const Home = ({ darkMode, setDarkMode }) => {
         <h1 className='home__title'> Welcome to our Website </h1>
         <div className="search__wrapper">
           <input 
-           className='home__input' 
+           className='search__input home__input' 
            type="search" 
            placeholder='Write your choosing section' 
            value={search}
@@ -36,27 +36,27 @@ const Home = ({ darkMode, setDarkMode }) => {
 
               <div className='home__section'>
                 {checkMatch("LOGIN") && (
-                  <li><Link className='home__section__link' to="/app"> LOGIN </Link></li>
+                  <li> <Link className='home__section__link' to="/app"> LOGIN </Link> </li>
                 )}
 
                 {checkMatch("HOME") && (
-                  <li><Link className='home__section__link' to="/home"> HOME </Link></li>
+                  <li> <Link className='home__section__link' to="/home"> HOME </Link> </li>
                 )}
 
                 {checkMatch("HTML") && (
-                  <li><Link className='home__section__link' to="/html"> HTML </Link></li>
+                  <li> <Link className='home__section__link' to="/html"> HTML </Link> </li>
                 )}
 
                 {checkMatch("CSS") && (
-                  <li><Link className='home__section__link' to="/css"> CSS </Link></li>
+                  <li> <Link className='home__section__link' to="/css"> CSS </Link> </li>
                 )}
 
                 {checkMatch("LINKS") && (
-                  <li><Link className='home__section__link' to="/links"> LINKS </Link></li>
+                  <li> <Link className='home__section__link' to="/links"> LINKS </Link> </li>
                 )}
 
                 {checkMatch("SHORTS") && (
-                  <li><Link className='home__section__link' to="/shorts"> SHORTS </Link></li>
+                  <li> <Link className='home__section__link' to="/shorts"> SHORTS </Link> </li>
                 )}
 
                 {checkMatch("NPM") && (

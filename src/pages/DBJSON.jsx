@@ -73,10 +73,7 @@ const DBJSON = ({ darkMode, setDarkMode }) => {
 
   return (
     <div>
-      <h1 className="DBJSON__title HTML__title">
-         DB.JSON Collections
-       </h1>
-
+      <h1 className="DBJSON__title HTML__title"> DB.JSON Collections </h1>
        <div className="search__wrapper">
          <input
           className="DBJSON__input HTML__input"
@@ -84,49 +81,32 @@ const DBJSON = ({ darkMode, setDarkMode }) => {
           placeholder="Search collection..."
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-        />
+         />
 
-        <ThemeToggle
-          darkMode={darkMode}
-          setDarkMode={setDarkMode}
-        />
-      </div>
+        <ThemeToggle darkMode={darkMode} setDarkMode={setDarkMode} />
+       </div>
 
       <div className="DBJSON__container">
         {filteredData.length > 0 ? (
           filteredData.map((item) => (
-            <div
-              className="DBJSON__card"
-              key={item.category}
-            >
-              <h2 className="DBJSON__name">
-                {item.category}
-              </h2>
+            <div className="DBJSON__card" key={item.category}>
+              <h2 className="DBJSON__name"> {item.category} </h2>
 
               <div className="DBJSON__codeBox">
-                <pre className="DBJSON__code">
-                  {item.json}
-                </pre>
-
-                <button
-                  className="DBJSON__copyBtn"
-                  onClick={() =>
+                <pre className="DBJSON__code"> {item.json} </pre>
+                <button className="DBJSON__copyBtn" onClick={() =>
                     copyToClipboard(item.json)
-                  }
-                >
+                  }>
                   Copy
                 </button>
               </div>
             </div>
           ))
         ) : (
-          <p className="tags__not__founded">
-            Category is not found ❌
-          </p>
+          <p className="tags__not__founded"> Category is not found ❌ </p>
         )}
       </div>
     </div>
   );
 };
-
 export default DBJSON;

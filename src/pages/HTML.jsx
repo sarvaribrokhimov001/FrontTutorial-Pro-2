@@ -142,7 +142,7 @@ const HTML = ({ darkMode, setDarkMode }) => {
       <h1 className='HTML__title'> HTML Tags </h1>
       <div className="search__wrapper">
         <input
-         className='HTML__input'
+         className='search__input HTML__input'
          type="search"
          placeholder='Write the Tag Name'
          value={search}

@@ -1,70 +1,70 @@
 .home__title {
-    text-align: center;
-    margin: 30px 0px;
+  text-align: center;
+  margin: 30px 0px;
 }
 
 .home__input {
-    width: 500px;
-    height: 50px;
-    font-weight: bold;
-    padding: 0px 20px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: red;
-    text-transform: capitalize;
+  width: 500px;
+  height: 50px;
+  font-weight: bold;
+  padding: 0px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: red;
+  text-transform: capitalize;
 }
 
 .home__input:focus {
-    background-color: black;
+  background-color: black;
 }
 
 .home__description__container {
-    width: 900px;
-    height: 350px;
-    margin: 50px auto;
-    border: 4px dashed;
+  width: 900px;
+  height: 350px;
+  margin: 50px auto;
+  border: 4px dashed;
 }
 
 .home__description__title {
-    font-size: 37px;
-    text-align: center;
+  font-size: 37px;
+  text-align: center;
 }
 
 .home__description {
-    font-size: 30px;
-    font-family: monospace;
-    margin: 10px;
-    color: grey;
+  font-size: 30px;
+  font-family: monospace;
+  margin: 10px;
+  color: grey;
 }
 
 .home__sections {
-    width: 800px;
-    height: 120px;
-    margin: 25px auto;
-    border: 4px solid grey;
-    border-radius: 20px;
+  width: 800px;
+  height: 120px;
+  margin: 25px auto;
+  border: 4px solid grey;
+  border-radius: 20px;
 }
 
 .home__sections__title {
-    font-size: 25px;
-    padding: 0px 20px;
+  font-size: 25px;
+  padding: 0px 20px;
 }
 
 .home__section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0px;
 }
 
 .home__section__link {
-    color: black;
-    font-weight: 700;
+  color: black;
+  font-weight: 700;
 }
 
 .home__section__link:hover {
-    color: red !important;
+  color: red !important;
 }
 
 @media (max-width: 500px) {
@@ -87,13 +87,6 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
-  }
-
-  .home__input {
-    width: 100%;
-    max-width: 100%;
-    font-size: 15px;
-    padding: 12px;
   }
 
   .home__description__container {

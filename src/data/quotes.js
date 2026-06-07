@@ -99,4 +99,4 @@ export const quotes = [
       "quote": "The less of the World, the freer you live.",
       "author": "Umar ibn Al-Khattāb (R.A)"
     },
-]
+];

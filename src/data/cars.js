@@ -178,5 +178,5 @@ export const cars = [
       "price": 67295,
       "color": "Denim Blue",
       "image": "https://images.unsplash.com/photo-1609521263047-f8f205293f24?w=400&q=80"
-    }
-]
+    },
+];

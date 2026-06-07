@@ -1,5 +1,5 @@
 export const users = [
-  {
+    {
       "id": "1",
       "name": "James Anderson",
       "email": "james.anderson@gmail.com",
@@ -178,5 +178,5 @@ export const users = [
       "role": "User",
       "joined": "2021-11-16",
       "country": "Sweden"
-    }
+    },
 ];

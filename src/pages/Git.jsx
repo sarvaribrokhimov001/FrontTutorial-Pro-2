@@ -305,7 +305,7 @@ const Git = ({ darkMode, setDarkMode }) => {
       <h1 className="Git__title HTML__title"> Useful Git Commands </h1>
       <div className="search__wrapper">
         <input
-         className="Git__input HTML__input"
+         className="search__input Git__input HTML__input"
          type="search"
          placeholder="Search git command"
          value={search}

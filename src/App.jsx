@@ -154,19 +154,7 @@ const App = () => {
       <Route path="/shorts" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <Shorts darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer/> </PrivateRoute>} />
       <Route path="/npm" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <NPM darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
       <Route path="/git" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <Git darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
-      <Route
-  path="/dbjson"
-  element={
-    <PrivateRoute isLogged={isLogged}>
-      <Navbar />
-      <DBJSON
-        darkMode={darkMode}
-        setDarkMode={setDarkMode}
-      />
-      <Footer />
-    </PrivateRoute>
-  }
-/>
+      <Route path="/dbjson" element={<PrivateRoute isLogged={isLogged}> <Navbar /> <DBJSON darkMode={darkMode} setDarkMode={setDarkMode} /> <Footer /> </PrivateRoute>} />
       <Route path="*" element={<h1 className="error"> Page is not found </h1>} />
     </Routes>
   );

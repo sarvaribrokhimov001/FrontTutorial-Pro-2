@@ -1,37 +1,37 @@
 .HTML__title {
-    text-align: center;
-    margin: 50px 0px;
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .HTML__input {
-    width: 500px;
-    height: 50px;
-    padding: 0px 20px;
-    border-radius: 15px;
-    font-size: 20px;
-    color: red;
-    text-transform: capitalize;
-    font-weight: bold;
+  width: 500px;
+  height: 50px;
+  padding: 0px 20px;
+  border-radius: 15px;
+  font-size: 20px;
+  color: red;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .HTML__tags {
-    width: 1100px;
-    margin: 50px auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 25px;
+  width: 1100px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .tags {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .tags__not__founded {
-    text-align: center;
-    color: red;
-    font-size: 30px;
-    margin: 50px auto;
+  text-align: center;
+  color: red;
+  font-size: 30px;
+  margin: 50px auto;
 }
 
 @media (max-width: 500px) {
@@ -48,13 +48,6 @@
     flex-direction: column;
     gap: 12px;
     align-items: center;
-  }
-
-  .HTML__input {
-    width: 100%;
-    max-width: 100%;
-    font-size: 14px;
-    padding: 12px;
   }
 
   .HTML__tags {

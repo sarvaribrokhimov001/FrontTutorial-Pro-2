@@ -96,7 +96,7 @@ const Links = ({ darkMode, setDarkMode }) => {
       <h1 className='Links__title HTML__title'> Useful Links </h1>
       <div className="search__wrapper">
         <input 
-         className='Links__input HTML__input' 
+         className='search__input Links__input HTML__input' 
          type="search" 
          placeholder='Search the Link Name' 
          value={search} 

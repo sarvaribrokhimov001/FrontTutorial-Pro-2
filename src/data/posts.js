@@ -315,4 +315,4 @@ export const posts = [
       "views": 4280,
       "userId": 12
     },
-]
+];

@@ -138,7 +138,7 @@ const Shorts = ({ darkMode, setDarkMode }) => {
       <h1 className='Shorts__title HTML__title'> Frontend Shortcuts & Terms </h1>
       <div className="search__wrapper">
         <input 
-         className='Shorts__input HTML__input' 
+         className='search__input Shorts__input HTML__input' 
          type="search" 
          placeholder='Search abbreviation or full form' 
          value={search}
