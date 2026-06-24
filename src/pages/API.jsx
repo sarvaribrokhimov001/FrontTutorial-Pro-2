@@ -175,7 +175,111 @@ const API = ({ darkMode, setDarkMode }) => {
   {
     name: "ReqRes Users",
     url: "https://reqres.in/api/users?page=1"
-  }
+  },
+  {
+    name: "Random Data API",
+    url: "https://random-data-api.com/api/v2/users"
+  },
+  {
+    name: "DummyJSON Auth",
+    url: "https://dummyjson.com/auth/login"
+  },
+  {
+    name: "ReqRes Single User",
+    url: "https://reqres.in/api/users/2"
+  },
+  {
+    name: "DummyJSON Products Search",
+    url: "https://dummyjson.com/products/search?q=phone"
+  },
+  {
+    name: "FakeStore Product 1",
+    url: "https://fakestoreapi.com/products/1"
+  },
+  {
+    name: "FakeStore Electronics",
+    url: "https://fakestoreapi.com/products/category/electronics"
+  },
+  {
+    name: "Open Meteo Hourly",
+    url: "https://api.open-meteo.com/v1/forecast?latitude=41.31&longitude=69.24&hourly=temperature_2m"
+  },
+  {
+    name: "Open Meteo Daily",
+    url: "https://api.open-meteo.com/v1/forecast?latitude=41.31&longitude=69.24&daily=temperature_2m_max"
+  },
+  {
+    name: "REST Countries Uzbekistan",
+    url: "https://restcountries.com/v3.1/name/uzbekistan"
+  },
+  {
+    name: "REST Countries Region Asia",
+    url: "https://restcountries.com/v3.1/region/asia"
+  },
+  {
+    name: "Geo IP",
+    url: "https://ipapi.co/json/"
+  },
+  {
+    name: "TMDB Trending",
+    url: "https://api.themoviedb.org/3/trending/movie/day"
+  },
+  {
+    name: "TMDB Popular Movies",
+    url: "https://api.themoviedb.org/3/movie/popular"
+  },
+  {
+    name: "Jikan Top Anime",
+    url: "https://api.jikan.moe/v4/top/anime"
+  },
+  {
+    name: "Picsum Random Image",
+    url: "https://picsum.photos/300"
+  },
+  {
+    name: "Lorem Flickr",
+    url: "https://loremflickr.com/320/240"
+  },
+  {
+    name: "Unsplash Random",
+    url: "https://source.unsplash.com/random/800x600"
+  },
+  {
+    name: "Hugging Face Models",
+    url: "https://huggingface.co/api/models"
+  },
+  {
+    name: "Hugging Face Datasets",
+    url: "https://huggingface.co/api/datasets"
+  },
+  {
+    name: "NPM Package Info",
+    url: "https://registry.npmjs.org/react"
+  },
+  {
+    name: "GitHub React Repo",
+    url: "https://api.github.com/repos/facebook/react"
+  },
+  {
+    name: "StackExchange Questions",
+    url: "https://api.stackexchange.com/2.3/questions?site=stackoverflow"
+  },
+  {
+    name: "Bored API",
+    url: "https://bored-api.appbrewery.com/random"
+  },
+  {
+    name: "Advice Slip",
+    url: "https://api.adviceslip.com/advice"
+  },
+  {
+    name: "Random Facts",
+    url: "https://uselessfacts.jsph.pl/api/v2/facts/random"
+  },
+  {
+    name: "Number Facts",
+    url: "http://numbersapi.com/random/trivia"
+  },
 ];
 
   const filteredData = apiData.filter(item =>

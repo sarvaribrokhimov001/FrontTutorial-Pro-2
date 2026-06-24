@@ -300,7 +300,205 @@ const NPM = ({ darkMode, setDarkMode }) => {
       name: "Zod",
       command: "npm i zod",
       description: "Type-safe validation library."
-    }
+    },
+
+    {
+      name: "Shadcn UI",
+      command: "npx shadcn@latest init",
+      description: "Shadcn UI komponentlarini projectga o‘rnatish."
+    },
+
+    {
+      name: "Lucide React",
+      command: "npm i lucide-react",
+      description: "Yengil va zamonaviy icon kutubxonasi."
+    },
+
+    {
+      name: "Sonner",
+      command: "npm i sonner",
+      description: "Chiroyli toast notification kutubxonasi."
+    },
+
+    {
+      name: "React Loading Skeleton",
+      command: "npm i react-loading-skeleton",
+      description: "Loading skeleton komponentlari."
+    },
+
+    {
+      name: "React Select",
+      command: "npm i react-select",
+      description: "Kuchli va custom select komponent."
+    },
+
+    {
+      name: "React Dropzone",
+      command: "npm i react-dropzone",
+      description: "Drag & Drop file upload."
+    },
+
+    {
+      name: "React Infinite Scroll",
+      command: "npm i react-infinite-scroll-component",
+      description: "Infinite scroll funksiyasi."
+    },
+
+    {
+      name: "React Intersection Observer",
+      command: "npm i react-intersection-observer",
+      description: "Element viewportga kirganini kuzatish."
+    },
+
+    {
+      name: "Embla Carousel",
+      command: "npm i embla-carousel-react",
+      description: "Yengil va kuchli carousel."
+    },
+
+    {
+      name: "Keen Slider",
+      command: "npm i keen-slider",
+      description: "Responsive slider yaratish."
+    },
+
+    {
+      name: "TanStack Table",
+      command: "npm i @tanstack/react-table",
+      description: "Professional data table yaratish."
+    },
+
+    {
+      name: "AG Grid",
+      command: "npm i ag-grid-react",
+      description: "Katta jadvallar bilan ishlash."
+    },
+
+    {
+      name: "Recharts",
+      command: "npm i recharts",
+      description: "React chart kutubxonasi."
+    },
+
+    {
+      name: "React ApexCharts",
+      command: "npm i react-apexcharts apexcharts",
+      description: "Professional chartlar yaratish."
+    },
+
+    {
+      name: "Motion",
+      command: "npm i motion",
+      description: "Framer Motionning yangi versiyasi."
+    },
+
+    {
+      name: "Lenis",
+      command: "npm i lenis",
+      description: "Smooth scrolling kutubxonasi."
+    },
+
+    {
+      name: "React Scroll",
+      command: "npm i react-scroll",
+      description: "Sahifa bo‘ylab smooth scroll."
+    },
+
+    {
+      name: "Yet Another React Lightbox",
+      command: "npm i yet-another-react-lightbox",
+      description: "Image gallery va lightbox."
+    },
+
+    {
+      name: "React Modal",
+      command: "npm i react-modal",
+      description: "Modal oynalar yaratish."
+    },
+
+    {
+      name: "React Helmet Async",
+      command: "npm i react-helmet-async",
+      description: "SEO uchun meta taglarni boshqarish."
+    },
+
+    {
+      name: "React Error Boundary",
+      command: "npm i react-error-boundary",
+      description: "Xatolarni ushlash va fallback UI."
+    },
+
+    {
+      name: "React Lazy Load Image",
+      command: "npm i react-lazy-load-image-component",
+      description: "Rasmlarni lazy loading qilish."
+    },
+
+    {
+      name: "Fuse JS",
+      command: "npm i fuse.js",
+      description: "Fuzzy search qidiruv tizimi."
+    },
+
+    {
+      name: "React Virtual",
+      command: "npm i @tanstack/react-virtual",
+      description: "Katta listlarni optimizatsiya qilish."
+    },
+
+    {
+      name: "PNPM",
+      command: "npm i -g pnpm",
+      description: "Tezkor package manager."
+    },
+
+    {
+      name: "Prettier",
+      command: "npm i -D prettier",
+      description: "Kod formatlash."
+    },
+
+    {
+      name: "ESLint",
+      command: "npm i -D eslint",
+      description: "Kod sifatini tekshirish."
+    },
+
+    {
+      name: "Husky",
+      command: "npm i -D husky",
+      description: "Git hooklar yaratish."
+    },
+
+    {
+      name: "Lint Staged",
+      command: "npm i -D lint-staged",
+      description: "Commit oldidan lint ishlatish."
+    },
+
+    {
+      name: "Commitizen",
+      command: "npm i -D commitizen",
+      description: "Standart commit message yozish."
+    },
+
+    {
+      name: "Playwright",
+      command: "npm i -D playwright",
+      description: "E2E testing."
+    },
+
+    {
+      name: "Jest",
+      command: "npm i -D jest",
+      description: "Unit testing."
+    },
+
+    {
+      name: "MSW",
+      command: "npm i msw",
+      description: "API mock qilish.",
+    },
   ];
 
   const filteredNPM = npmList.filter(item =>

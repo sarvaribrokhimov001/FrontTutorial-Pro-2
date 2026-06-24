@@ -276,6 +276,192 @@ const Git = ({ darkMode, setDarkMode }) => {
       name: "Git Amend Commit",
       command: 'git commit --amend -m "new message"',
       description: "Oxirgi commit message ni o‘zgartiradi."
+    },
+
+    {
+      name: "Git Add Specific File",
+      command: "git add file-name",
+      description: "Faqat bitta faylni stage qiladi."
+    },
+
+    {
+      name: "Git Add Interactive",
+      command: "git add -p",
+      description: "O'zgarishlarni qismlarga bo'lib stage qilish."
+    },
+
+    {
+      name: "Git Commit All",
+      command: 'git commit -am "message"',
+      description: "Stage va commitni bir vaqtda bajaradi."
+    },
+
+    {
+      name: "Git Log One Line",
+      command: "git log --oneline",
+      description: "Commit tarixini qisqa formatda ko'rsatadi."
+    },
+
+    {
+      name: "Git Log Graph",
+      command: "git log --oneline --graph --all",
+      description: "Branchlar tarixini grafik ko'rinishda ko'rsatadi."
+    },
+
+    {
+      name: "Git Stash List",
+      command: "git stash list",
+      description: "Barcha stashlarni ko'rsatadi."
+    },
+
+    {
+      name: "Git Stash Apply",
+      command: "git stash apply",
+      description: "Stashni saqlagan holda qo'llaydi."
+    },
+
+    {
+      name: "Git Stash Drop",
+      command: "git stash drop",
+      description: "Bitta stashni o'chiradi."
+    },
+
+    {
+      name: "Git Stash Clear",
+      command: "git stash clear",
+      description: "Barcha stashlarni o'chiradi."
+    },
+
+    {
+      name: "Git Branch All",
+      command: "git branch -a",
+      description: "Local va remote branchlarni ko'rsatadi."
+    },
+
+    {
+      name: "Git Branch Remote",
+      command: "git branch -r",
+      description: "Faqat remote branchlarni ko'rsatadi."
+    },
+
+    {
+      name: "Git Remote Remove",
+      command: "git remote remove origin",
+      description: "Remote repositoryni o'chiradi."
+    },
+
+    {
+      name: "Git Remote Set URL",
+      command: "git remote set-url origin <new-url>",
+      description: "Remote repository URLini almashtiradi."
+    },
+
+    {
+      name: "Git Fetch All",
+      command: "git fetch --all",
+      description: "Barcha remote repositorylardan ma'lumot oladi."
+    },
+
+    {
+      name: "Git Restore Staged",
+      command: "git restore --staged file-name",
+      description: "Staged faylni unstaged qiladi."
+    },
+
+    {
+      name: "Git Reset File",
+      command: "git reset file-name",
+      description: "Bitta faylni stage holatidan chiqaradi."
+    },
+
+    {
+      name: "Git Show Branches",
+      command: "git show-branch",
+      description: "Branchlar haqida ma'lumot ko'rsatadi."
+    },
+
+    {
+      name: "Git Short Status",
+      command: "git status -s",
+      description: "Qisqa status ko'rinishi."
+    },
+
+    {
+      name: "Git Blame",
+      command: "git blame file-name",
+      description: "Qaysi qatorni kim yozganini ko'rsatadi."
+    },
+
+    {
+      name: "Git Reflog",
+      command: "git reflog",
+      description: "HEAD tarixini ko'rsatadi."
+    },
+
+    {
+      name: "Git Bisect Start",
+      command: "git bisect start",
+      description: "Xato commitni topishni boshlaydi."
+    },
+
+    {
+      name: "Git Bisect Good",
+      command: "git bisect good",
+      description: "Commit yaxshi ekanligini belgilaydi."
+    },
+
+    {
+      name: "Git Bisect Bad",
+      command: "git bisect bad",
+      description: "Commit yomon ekanligini belgilaydi."
+    },
+
+    {
+      name: "Git Bisect Reset",
+      command: "git bisect reset",
+      description: "Bisect jarayonini tugatadi."
+    },
+
+    {
+      name: "Git Tag List",
+      command: "git tag",
+      description: "Barcha taglarni ko'rsatadi."
+    },
+
+    {
+      name: "Git Push Tags",
+      command: "git push --tags",
+      description: "Barcha taglarni GitHubga yuboradi."
+    },
+
+    {
+      name: "Git Delete Tag",
+      command: "git tag -d v1.0",
+      description: "Tagni o'chiradi."
+    },
+
+    {
+      name: "Git Squash Last Commits",
+      command: "git rebase -i HEAD~3",
+      description: "Bir nechta commitlarni bitta commitga birlashtiradi."
+    },
+
+    {
+      name: "Git Force Push Safe",
+      command: "git push --force-with-lease",
+      description: "Xavfsiz force push."
+    },
+
+    {
+      name: "Git Clone Specific Branch",
+      command: "git clone -b branch-name <repo-url>",
+      description: "Ma'lum branchni clone qiladi."
+    },
+
+    {
+      name: "Git Archive",
+      command: "git archive --format zip --output project.zip main",
+      description: "Repositoryni zip qilib export qiladi."
     }
   ];
 
